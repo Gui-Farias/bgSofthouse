@@ -1,0 +1,56 @@
+/* Estilo para o diálogo */
+dialog {
+	width: 400px;
+	padding: 32px;
+	border: 1px solid var(--color-secondary);
+	border-radius: 5px;
+	color: var(--color-secondary);
+	background-color: var(--color-tertiary-dark);
+	box-shadow: 0 0 7px var(--color-tertiary-dark);
+
+	@media screen and (max-width: 468px) {
+		width: 100%;
+		padding: 32px 16px 16px;
+	}
+	@media screen and (max-width: 368px) {
+		padding: 32px 8px 8px;
+	}
+
+	[open] {
+		position: fixed;
+		z-index: 1000; /* garantir que o diálogo esteja acima da sobreposição */
+	}
+
+	p {
+		color: var(--color-neutro-light);
+	}
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	display: none;
+
+	&.block {
+		display: block;
+	}
+}
+
+.closeDialogButton {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		scale: 1.4;
+		transform: translateY(-3px);
+	}
+}

@@ -1,0 +1,15 @@
+.team {
+	background-color: var(--color-secondary);
+	padding-block: 100px 60px;
+	width: 100%;
+
+	@media screen and (min-width: 768px) {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	div:nth-child(2n) {
+		margin-top: -50px;
+	}
+}

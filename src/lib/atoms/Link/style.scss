@@ -1,0 +1,62 @@
+.btn {
+	border-radius: 40px 0 40px 0;
+	background-color: var(--color-secondary);
+	color: var(--color-text);
+	display: inline-flex;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	padding: 12px 58px;
+	position: relative;
+	overflow: hidden;
+	width: fit-content;
+
+	&:hover,
+	&:focus {
+		transform: translateY(-10px);
+		transition: all 0.3s;
+		scale: 1.05;
+		color: var(--color-secondary);
+		transition: color 0.5s ease-in-out 0.9s;
+
+		&::before,
+		&::after {
+			transform: translateY(-62px);
+			transition: all 1.6s ease-out;
+		}
+	}
+	&:focus {
+		outline: 4px solid var(--color-primary-light2);
+	}
+
+	&::after,
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		z-index: -1;
+	}
+
+	&::after {
+		height: 22px;
+		top: 62px;
+		background-image: url('../../assets/wave.webp');
+		animation: wave 0.6s linear infinite;
+	}
+	&::before {
+		height: 44px;
+		top: 82px;
+		background-color: #005099;
+	}
+}
+
+@keyframes wave {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 118px;
+	}
+}

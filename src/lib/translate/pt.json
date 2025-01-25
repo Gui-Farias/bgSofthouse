@@ -1,0 +1,83 @@
+{
+	"menu": {
+		"home": "Início",
+		"about": "BG Softhouse",
+		"work": "Projetos",
+		"service": "Serviços"
+	},
+	"about": {
+		"title": "Da Ideia para o Mundo Online",
+		"description": "Desenvolvemos todos os tipos de soluções online para promover e impulsionar o seu negócio. Também trabalhamos na sua marca, proporcionando uma melhor experiência ao cliente, aumentando a confiança e visibilidade da marca!"
+	},
+	"hero": {
+		"title": "BG Softhouse",
+		"description": "Desenvolva seu sistema de forma suave e sem dor de cabeça com a sua casa de softwares"
+	},
+	"works": [
+		{
+			"name": "Gui Farias",
+			"text": "Criar um portfólio online onde você possa mostrar seus contatos e serviços é sempre uma boa opção para encontrar um emprego ou atrair clientes.",
+			"link": "https://guifarias.com.br"
+		},
+		{
+			"name": "Gui Locações",
+			"text": "Gui Locações é um site dedicado à locação de caminhões e máquinas para obras. Você podem explorar a frota, conhecer mais sobre a empresa, entrar em contato e realizar suas locações.",
+			"link": "http://gui-locacoes.vercel.app/"
+		}
+	],
+	"services": [
+		{
+			"name": "Sites",
+			"text": "Criamos mais do que simples sites; criamos experiências digitais memoráveis, desde os primeiros esboços até o lançamento."
+		},
+		{
+			"name": "Lojas",
+			"text": "Oferecemos suporte completo para e-commerce, auxiliando desde a criação até a gestão e promoção da sua loja online."
+		},
+		{
+			"name": "Vídeo",
+			"text": "Transformando ideias em vídeos memoráveis, dominamos a arte da edição para contar sua história de forma envolvente e impactante."
+		},
+		{
+			"name": "Logo",
+			"text": "Na arte de criar logotipos, combinamos criatividade e estratégia para transmitir a essência da sua marca em um design único e memorável."
+		}
+	],
+	"how": {
+		"title": "Como Trabalhamos?",
+		"text": [
+			"Entendemos o seu caso e as suas necessidades.",
+			"Nossa equipe cria soluções para resolver os seus problemas.",
+			"Uma vez aprovado por você, seguimos com o desenvolvimento.",
+			"Projeto concluído e entregue.",
+			"Continuamos com consultoria para os próximos passos."
+		]
+	},
+	"form": {
+		"title": "Entre em Contato!",
+		"text": "Não perca tempo, envie-nos uma mensagem agora mesmo!",
+		"name": "Nome:",
+		"tel": "Telefone:",
+		"email": "Email:",
+		"subject": "Assunto:",
+		"subject_list": ["Criar Site", "Atualizar Site", "Criar Logo", "Criar Reels", "Campanha ADS"],
+		"message": "Mensagem:"
+	},
+	"buttons": {
+		"all_projects": "Ver todos os projetos",
+		"all_services": "Ver todos os serviços",
+		"project": "Ver projeto",
+		"contact": "Contato",
+		"form": "Enviar"
+	},
+	"cta": {
+		"cta_papel": "Entre em contato e dê vida ao seu sistema ou solução digital!",
+		"cta_footer": "Entre em contato hoje mesmo e vamos ajudá-lo a dar vida ao seu sistema ou solução digital!"
+	},
+	"footer": {
+		"title": "Entre em Contato e Dê Vida ao Seu Sistema ou Solução Digital",
+		"text": "Não perca tempo, entre em contato hoje mesmo!",
+		"copy": "© Direitos Autorais - Todos os direitos reservados"
+	},
+	"skip": "Ir para o conteúdo principal"
+}

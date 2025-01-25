@@ -1,0 +1,61 @@
+.how {
+	background-color: var(--color-neutro-light);
+	padding-block: 80px 200px;
+	position: relative;
+
+	& > .container {
+		display: flex;
+		gap: 60px;
+		flex-direction: column-reverse;
+	}
+	@media only screen and (min-width: 728px) {
+		padding-block: 150px 200px;
+
+		& > .container {
+			display: flex;
+			gap: 60px;
+			flex-direction: row;
+
+			& > * {
+				width: 50%;
+			}
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		@media only screen and (max-width: 728px) {
+			margin-top: 32px;
+		}
+
+		> ul {
+			display: flex;
+			flex-direction: column;
+
+			@media only screen and (max-width: 728px) {
+				width: 84%;
+				margin-inline: auto;
+				padding-left: 25px;
+			}
+		}
+
+		li {
+			position: relative;
+			font-size: 20px;
+
+			+ li {
+				margin-top: 16px;
+			}
+		}
+
+		li::before {
+			content: '✅';
+			position: absolute;
+			left: -30px;
+			display: block;
+		}
+	}
+}

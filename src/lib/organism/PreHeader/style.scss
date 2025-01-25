@@ -1,0 +1,36 @@
+.pre-header {
+	background-color: var(--color-primary-dark2);
+	position: relative;
+
+	.container {
+		display: flex;
+		justify-content: right;
+	}
+
+	&__main-lang {
+		margin: 0;
+		padding: 0;
+		line-height: 0;
+
+		img {
+			cursor: pointer;
+			max-width: 36px;
+		}
+	}
+
+	.hide > button {
+		display: none;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&__iconInsta {
+		width: 38px;
+		margin-inline: 24px;
+		max-height: 38px;
+
+		img {
+			width: 100%;
+		}
+	}
+}

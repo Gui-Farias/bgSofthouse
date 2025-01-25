@@ -1,0 +1,83 @@
+.hero {
+	background-color: var(--color-primary-dark);
+	height: 100vh;
+	overflow-x: hidden;
+
+	> .container {
+		display: flex;
+		height: 90%;
+		position: relative;
+	}
+
+	&__intro {
+		padding-top: 100px;
+		position: fixed;
+
+		@media screen and (min-width: 1048px) {
+			padding-top: 220px;
+		}
+
+		&-none {
+			display: none;
+		}
+
+		h1 {
+			color: var(--color-secondary);
+		}
+
+		p {
+			color: var(--color-neutro-light);
+			font-size: 28px;
+			line-height: 36px;
+			max-width: 600px;
+			margin-left: 10%;
+			opacity: 0;
+			transform: translateX(-150px);
+			transition: all 1s;
+
+			&.hero__intro-animaText {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+	}
+
+	&__img {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: end;
+
+		@media screen and (min-width: 1048px) {
+			justify-content: end;
+			align-items: center;
+		}
+
+		&-none {
+			display: none;
+		}
+
+		img {
+			max-width: 330px;
+			position: fixed;
+
+			@media screen and (min-width: 468px) {
+				max-width: 50vh;
+			}
+
+			@media screen and (min-width: 1190px) {
+				max-width: 500px;
+			}
+		}
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

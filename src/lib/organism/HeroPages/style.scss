@@ -1,0 +1,17 @@
+.hero-pages {
+	background-color: var(--color-primary-dark);
+	height: 500px;
+
+	&__intro {
+		padding-top: 150px;
+		position: fixed;
+
+		&-none {
+			display: none;
+		}
+
+		h1 {
+			color: var(--color-secondary);
+		}
+	}
+}

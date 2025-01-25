@@ -1,0 +1,89 @@
+{
+	"menu": {
+		"home": "Home",
+		"about": "BG softhouse",
+		"work": "Projects",
+		"service": "Services"
+	},
+	"about": {
+		"title": "From Idea to Online World",
+		"description": "We develop all kinds of online solutions to promote and boost your business. We also work on your brand, bringing a better experience to the customer, increasing trust and visibility of the brand!"
+	},
+	"hero": {
+		"title": "BG Softhouse",
+		"description": "Develop your system smoothly and hassle-free with your software house"
+	},
+	"works": [
+		{
+			"name": "Gui Farias",
+			"text": "Creating an online portfolio where you can showcase your contacts and services is always a good option to find a job or attract clients.",
+			"link": "https://guifarias.com.br"
+		},
+		{
+			"name": "Gui rentals",
+			"text": "Gui rentals is a website dedicated to the rental of trucks and construction machinery. You can explore the fleet, learn more about the company, get in touch and make your rentals.",
+			"link": "http://gui-locacoes.vercel.app/"
+		}
+	],
+	"services": [
+		{
+			"name": "Sites",
+			"text": "We create more than just websites; we create memorable digital experiences, from the first sketches to the launch."
+		},
+		{
+			"name": "Stores",
+			"text": "We offer complete support for e-commerce, assisting from creation to management and promotion of your online store."
+		},
+		{
+			"name": "Video",
+			"text": "Turning ideas into memorable videos, we master the art of editing to tell your story in an engaging and impactful way."
+		},
+		{
+			"name": "Logo",
+			"text": "In the art of creating logos, we combine creativity and strategy to convey the essence of your brand in a unique and memorable design."
+		}
+	],
+	"how": {
+		"title": "How Do We Work?",
+		"text": [
+			"We understand your case and your needs.",
+			"Our team creates solutions to solve your problems.",
+			"Once you approve, we proceed with the development.",
+			"Project completed and delivered.",
+			"We continue with advice for the next steps."
+		]
+	},
+	"form": {
+		"title": "Get in Touch!",
+		"text": "Don't waste time, send us a message right now!",
+		"name": "Name:",
+		"tel": "Phone:",
+		"email": "Email:",
+		"subject": "Subject:",
+		"subject_list": [
+			"Create Website",
+			"Update Website",
+			"Create Logo",
+			"Create Reels",
+			"ADS Campaign"
+		],
+		"message": "Message:"
+	},
+	"buttons": {
+		"all_projects": "See all projects",
+		"all_services": "See all services",
+		"project": "View project",
+		"contact": "Contact",
+		"form": "Send"
+	},
+	"cta": {
+		"cta_papel": "Get in touch and bring your system or digital solution to life!",
+		"cta_footer": "Contact us today and we'll help you bring your system or digital solution to life!"
+	},
+	"footer": {
+		"title": "Get in touch and bring your system or digital solution to life",
+		"text": "Don't waste time, contact us today!",
+		"copy": "© Copyright - All rights reserved"
+	},
+	"skip": "Skip to main content"
+}
