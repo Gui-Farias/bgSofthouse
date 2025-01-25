@@ -26,6 +26,8 @@
 				return '#projects';
 			case 'service':
 				return '#services';
+			case 'github':
+				return 'https://github.com/Gui-Farias/bgSofthouse';
 			default:
 				return '/';
 		}
@@ -36,7 +38,7 @@
 	<button on:click={toggleMenu} class="mainMenu__btn-mobile" aria-label="Toggle Menu"></button>
 	<ul class="mainMenu__list">
 		{#each Object.keys(menuList) as itemKey}
-			<li><a href={linkMenu(itemKey)} on:click={closeMenu}>{$t(`menu.${itemKey}`)}</a></li>
+			<li><a href={linkMenu(itemKey)} target={itemKey == 'github' ? '_blank':'_self'}  on:click={closeMenu}>{$t(`menu.${itemKey}`)}</a></li>
 		{/each}
 		<li>
 			<DialogContact />
